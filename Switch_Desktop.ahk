@@ -8,6 +8,16 @@ WheelUp::
 Send #^{left}
 Return
 
+#If MouseIsOver("ahk_class Shell_SecondaryTrayWnd")
+WheelDown::
+Send #^{Right}
+Return
+
+#If MouseIsOver("ahk_class Shell_SecondaryTrayWnd")
+WheelUp::
+Send #^{left}
+Return
+
 #If MouseIsOver("ahk_class MultitaskingViewFrame")
 
 WheelDown::Send #^{Right}
